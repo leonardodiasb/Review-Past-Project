@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1 id="title">
+            Microverse Application Survey
+        </h1>
+        <p id="description">Survey Form Built by Peter and Leornado</p>
+        <form id="survey-form">
+            <label id="name-label">Enter your name:</label>
+            <input required placeholder="name" id="name" type="text" >
+            <label id="email-label">Enter your email:</label>
+            <input placeholder="email" id="email" type="email" required>
+            <label id="number-label">Enter your age:</label>
+            <input placeholder="age" type="number" name="test" id="number" min="18" max="100" required >
+            <label id="timezone-label">Select your time zone:</label>
+            <select name="test" id="dropdown">
+               <option value="one">European Time Zone (UTC+1)</option>
+               <option value="two">American Time Zone (UTC-6)</option>
+            </select>
+            <input type="radio" value="1" name="test">
+            <input type="radio" value="2" name="test">
+            <input type="checkbox" value="1">
+            <input type="checkbox" value="2">
+            <label id="suggestion-zone">Leave a suggestion for us:</label>
+            <textarea></textarea>
+            <button id="submit" type="button">Submit</button>
+        </form>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

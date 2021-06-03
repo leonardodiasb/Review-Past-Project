@@ -1,21 +1,10 @@
 # Review-Past-Project
 
-
-> One paragraph statement about the project.
-
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
+This project was just about giving a code review, based on the metrics I learned on Microverse, to a code I did before joining the program.
 
 
-## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@leonardodiasb](https://github.com/leonardodiasb)
 
